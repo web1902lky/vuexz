@@ -31,5 +31,6 @@ server.use(cors({
   }))
   
 server.use(express.static("public"));
+
 //配置json是否是自动转换
 server.use(bodyParser.urlencoded({extended:false}))
